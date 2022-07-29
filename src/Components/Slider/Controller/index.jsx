@@ -26,6 +26,7 @@ export default function Controller(props) {
   const delayHandler = (e) => {
     setDelay(e.target.value);
   }
+ 
 
   return (
     <div className={styles.container}>
